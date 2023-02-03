@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://drive.google.com/uc?export=view&id=1kigpOePjFHezLjDoWtkH2-HMShEN0y42");
+}
+
+body .calendar {
+    border-style: ridge;
+    margin:0 auto;
+    width:980px;
+    background:white;
+}
+
+.month {
+    text-align: center;
+    display: block;
+    background-color: rgb(56, 135, 224);
+    padding: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    margin:0 auto;
+    width:920px;
+    border-style:ridge;  
+}
+
+
+.calendar {
+    padding: 20px
+}
+
+.calendar ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+}
+
+.calendar ul li {
+    width: calc(100% / 7);
+    bottom: auto;
+}
+
+.calendar .weeks li {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.calendar .days li {
+    font-size: 20px;
+    bottom: 5px;
+}
+
+.icons span:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+#next {
+    position: absolute;
+    right: 450px;
+}
+
+
+
+
+
+
